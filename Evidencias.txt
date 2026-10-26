@@ -1,0 +1,44 @@
+=== PRUEBA 1: FUNCION FN_VALOR_ESTADIA ===
+Valor estadia 3 noches: 367584
+
+Procedimiento PL/SQL terminado correctamente.
+=== PRUEBA 2: PAQUETE EXISTE ===
+
+OBJECT_NAME                                                                                                                      STATUS 
+-------------------------------------------------------------------------------------------------------------------------------- -------
+PKG_TURISMO                                                                                                                      VALID  
+PKG_TURISMO                                                                                                                      VALID  
+
+=== PRUEBA 3: TRIGGERS CREADOS ===
+
+TRIGGER_NAME                                                                                                                     STATUS  
+-------------------------------------------------------------------------------------------------------------------------------- --------
+TRG_AUD_TARIFA                                                                                                                   ENABLED 
+TRG_SOLAPE_HAB                                                                                                                   ENABLED 
+
+=== PRUEBA 4: TABLESPACE HISTORICO ===
+
+TABLE_NAME
+--------------------------------------------------------------------------------------------------------------------------------
+TABLESPACE_NAME               
+------------------------------
+RESERVA_HISTORICO                                                                                                                
+TS_HISTORICO                  
+
+
+=== PRUEBA 5: VISTA MATERIALIZADA ===
+
+MVIEW_NAME                                                                                                                       REFRESH_
+-------------------------------------------------------------------------------------------------------------------------------- --------
+MV_OCUPACION_MENSUAL                                                                                                             COMPLETE
+
+=== PRUEBA 6: CONTEO GENERAL ===
+
+TIPO                          TOTAL
+------------------------ ----------
+RESERVAS                      25500
+HABITACIONES POR RESERVA      25500
+PAGOS                         49024
+SERVICIOS                     42281
+RESEÑAS                       13582
+
